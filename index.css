@@ -1,0 +1,135 @@
+/* ==============================
+   Tema azul oscuro limpio
+   ============================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-image: url(./uploads/atitlanlake.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #e0e0e0;
+}
+
+/* ==============================
+   Contenedor principal
+   ============================== */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* ==============================
+   Tarjeta de login
+   ============================== */
+.card {
+  background-color: #ff0404c7; 
+  padding: 2.5rem 3rem;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  border: 1px solid #000000; /* Línea sutil */
+}
+
+/* ==============================
+   Título
+   ============================== */
+.card h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+/* ==============================
+   Campos del formulario
+   ============================== */
+form label {
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f17777c7;
+  color: #ffffff;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #5bc0be;
+  background-color: #01224b;
+}
+
+/* ==============================
+   Botón principal
+   ============================== */
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 0.9rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn.primary {
+  background-color: #01224b;
+  color: #ffffff;
+}
+
+.btn.primary:hover {
+  background-color: #f39944;
+  transform: scale(1.02);
+}
+
+/* ==============================
+   Mensaje de error
+   ============================== */
+p {
+  background-color: rgba(255, 80, 80, 0.08);
+  border-left: 4px solid #ff4b4b;
+  padding: 0.75rem;
+  color: #ff7b7b;
+  font-weight: 500;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+/* ==============================
+   Responsividad
+   ============================== */
+@media (max-width: 480px) {
+  .card {
+    padding: 2rem;
+  }
+
+  .card h1 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,109 @@
+/* ======== ESTILO GENERAL ======== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #ff0404c7; 
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== CONTENEDOR PRINCIPAL ======== */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* ======== TARJETA PRINCIPAL ======== */
+.card {
+  background-color: #eb0000c7;
+  padding: 40px;
+  border-radius: 12px;
+  width: 95%;
+  max-width: 600px;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* ======== ENCABEZADO CON USUARIO ======== */
+.card p.user-info {
+  font-size: 16px;
+  color: #b0c4de;
+  margin-bottom: 20px;
+}
+
+.card p.user-info strong {
+  color: #ffffff;
+}
+
+/* ======== TÍTULOS ======== */
+h1 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+/* ======== BOTONES ======== */
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #970707c7;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: #01224b;
+  transform: scale(1.03);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+/* ======== BOTONES ADMIN ======== */
+.btn.admin-btn {
+  background-color: #007bff;
+}
+
+.btn.admin-btn:hover {
+  background-color: #0056b3;
+}
+
+/* ======== BOTÓN CERRAR SESIÓN ======== */
+.btn.logout {
+  background-color: #c0392b;
+}
+
+.btn.logout:hover {
+  background-color: #922b21;
+}
+
+/* ======== RESPONSIVIDAD ======== */
+@media (max-width: 600px) {
+  .card {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p.user-info {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,137 @@
+/* ======== ESTILO GLOBAL ======== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #ff0404c7; 
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== CONTENEDOR PRINCIPAL ======== */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* ======== TARJETA ======== */
+.card {
+  background-color: #eb0000c7;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* ======== TÍTULO ======== */
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* ======== MENSAJE DE CARRITO VACÍO ======== */
+.card p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* ======== BOTONES ======== */
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  margin: 5px;
+}
+
+/* Botón primario (Finalizar Compra) */
+.btn.primary {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+}
+
+.btn.primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Botón secundario (Seguir Comprando) */
+.btn.secondary {
+  background-color: #1b263b;
+  border: 1px solid #007bff;
+  color: #ffffff;
+}
+
+.btn.secondary:hover {
+  background-color: #243b55;
+  transform: scale(1.05);
+}
+
+/* Botón peligroso (Eliminar, Cancelar) */
+.btn.danger {
+  background-color: #ff8514;
+  color: #ffffff;
+  border: none;
+}
+
+.btn.danger:hover {
+  background-color: #704001;
+  transform: scale(1.05);
+}
+
+/* ======== TABLA ======== */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ffffffc7;
+}
+
+.table th {
+  background-color: #970707c7;
+  color: #e2bc13;
+}
+
+/* Imagen de producto en la tabla */
+.table img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Total a pagar */
+h2 {
+  text-align: right;
+  color: #e2bc13;
+  margin-top: 20px;
+}
+
+/* ======== RESPONSIVIDAD ======== */
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
