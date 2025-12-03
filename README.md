@@ -26,3 +26,39 @@ It provides a secure login system and dynamic dashboards that adapt to the user�
 ### 🎯 Purpose
 This project demonstrates a **multi-role e-commerce system** with advanced CRUD operations, reporting, and transactional workflows. It serves as a foundation for scalable online business applications.
 
+### 📸 Screenshots
+
+Below are key screenshots showcasing the two main views of the Online store :
+
+ – Admin Panel :
+
+#### User Management
+![User Management](https://github.com/bernercontreras-GT/tienda_en_linea/blob/master/tienda_en_linea%20-%20online_store%20screenshots/gestionusuarios.png?raw=true)
+
+#### Product Management
+![Product Management](https://github.com/bernercontreras-GT/tienda_en_linea/blob/master/tienda_en_linea%20-%20online_store%20screenshots/gestionproductos.png?raw=true)
+
+#### Sales Reports
+![Sales Reports](https://github.com/bernercontreras-GT/tienda_en_linea/blob/master/tienda_en_linea%20-%20online_store%20screenshots/reporteventas.png?raw=true)
+
+#### Product Catalog
+![Product Catalog](https://github.com/bernercontreras-GT/tienda_en_linea/blob/master/tienda_en_linea%20-%20online_store%20screenshots/catalogoproductos.png?raw=true)
+
+#### Shopping Cart
+![Shopping Cart](https://github.com/bernercontreras-GT/tienda_en_linea/blob/master/tienda_en_linea%20-%20online_store%20screenshots/carrito.png?raw=true)
+
+---
+
+## 🙋‍♂️ Client Portal
+ 
+
+### 📸 Screenshots – Client Portal
+
+#### Product Catalog
+![Product Catalog](https://github.com/bernercontreras-GT/tienda_en_linea/blob/master/tienda_en_linea%20-%20online_store%20screenshots/catalogoproductos.png?raw=true)
+
+#### Shopping Cart
+![Shopping Cart](https://github.com/bernercontreras-GT/tienda_en_linea/blob/master/tienda_en_linea%20-%20online_store%20screenshots/carrito.png?raw=true)
+
+#### Checkout & Invoice
+![Invoice](https://github.com/bernercontreras-GT/tienda_en_linea/blob/master/tienda_en_linea%20-%20online_store%20screenshots/recibo%20de%20compra%20.png?raw=true)
